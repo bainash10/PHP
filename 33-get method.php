@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>Reading a file using PHP</title>
+        <title>Reading a file using PHP</title>  
+        <!-- run 34-GET Method Demo.php wala folder -->
     </head>
     <body>
         <?php
