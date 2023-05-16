@@ -1,3 +1,4 @@
+        
 <?php 
 session_start();
 if(isset($_SESSION['page_count']))
@@ -12,5 +13,8 @@ $_SESSION['views']=1;
 echo "You are visitor number". $_SESSION['page_count'];
 ?>
 
+<?php 
+session_destroy();
+?>
         
     
