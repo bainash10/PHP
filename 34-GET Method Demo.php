@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>Get method DEMO</title> //yo main file ho jasle 33-get method wala file lai point garcha so run this
+        <title>Get method DEMO</title>
+         <!-- yo main file ho jasle 33-get method wala file lai point garcha so run this -->
     </head>
     <body>
 
