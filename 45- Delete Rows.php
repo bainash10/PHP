@@ -1,5 +1,4 @@
-  <!-- IMPORTANT asked for 3 marks in exam -->
-  <?php 
+ <?php 
  $servername = "localhost";
  $username = "root";
  $password = "";
@@ -26,5 +25,5 @@ $dbname = "db1";
 
  mysqli_close($conn);
     ?>
-        
+        `
     

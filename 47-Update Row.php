@@ -1,5 +1,4 @@
-
-  <?php 
+<?php 
  $servername = "localhost";
  $username = "root";
  $password = "";
@@ -13,19 +12,16 @@ $dbname = "db1";
  {
   die("Connection failed:" . mysqli_connect_error());
  }
- // SQL to create table
- $sql = "CREATE TABLE MyGuests(
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    fullName VARCHAR(30) NOT NULL,
-    email VARCHAR(50),
-     contact INT(11) -- last column ho vane comma hunu hunna
- )";
+
+ $sql = "UPDATE myGuests SET email='baidar.nischal@gmail.com'
+ WHERE fullName = 'Nis Baidar'";
+
  if(mysqli_query($conn, $sql))
  {
-    echo "Table MyGuests created Successfully";
+    echo "Records Updated Successfully";
  }
  else{
-    echo "Error Creating Table: " .mysqli_error($conn);
+    echo "Error : ".sql. "<br>" .mysqli_error($conn);
  }
 
  mysqli_close($conn);

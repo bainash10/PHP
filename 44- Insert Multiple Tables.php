@@ -1,4 +1,4 @@
-  <!-- IMPORTANT asked for 3 marks in exam -->
+
   <?php 
  $servername = "localhost";
  $username = "root";
